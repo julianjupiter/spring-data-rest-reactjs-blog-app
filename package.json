@@ -1,0 +1,35 @@
+{
+  "name": "spring-data-rest-reactjs-blog-app",
+  "version": "1.0.0",
+  "description": "Blog application using Spring Data Rest and ReactJS.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:julianjupiter/spring-data-rest-reactjs-blog-app.git"
+  },
+  "scripts": {
+    "watch": "webpack --watch -d"
+  },
+  "keywords": [
+    "rest",
+    "hateoas",
+    "spring",
+    "data",
+    "react"
+  ],
+  "author": "Julian V. Jupiter",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/julianjupiter/spring-data-rest-reactjs-blog-app",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "rest": "^1.3.1",
+    "webpack": "^1.12.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0"
+  }
+}
